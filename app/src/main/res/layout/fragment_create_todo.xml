@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.example.stav.todoapp.presentation.main.CreateTodoFragment">
+
+    <!-- Text Label -->
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_text"
+        style="@style/TextAppearance.App.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textColorHint="@color/colorPrimary"
+        android:layout_margin="8dp">
+
+        <EditText
+            android:id="@+id/input_text"
+            style="@style/TextAppearance.App.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:hint="@string/text"
+            android:textColor="@android:color/black"
+            app:backgroundTint="@color/colorPrimary" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/btn_save"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        tools:text="SAVE" />
+
+</LinearLayout>

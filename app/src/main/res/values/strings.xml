@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="empty_todo_list">You have nothing to do</string>
+    <string name="todo_completed">Done</string>
+    <string name="todo_active">Active</string>
+    <string name="splash_text">TodoApp</string>
+    <string name="saving_text">Saving....</string>
+
+    <!--authentication-->
+    <string name="create_account">Don\'t Have An Account? Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="signin_loading">"Signing In...."</string>
+    <string name="signup_loading">"Signing Up...."</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="registration_success">Registration success</string>
+
+    <!--authentication errors-->
+    <string name="invalid_email">Invalid email</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="doesnt_match">Passwords does not match</string>
+    <string name="empty_fields">There are empty fields</string>
+    <string name="register_error">Sign-In Problem</string>
+
+
+    <string name="some_error">Some error occurred</string>
+    <string name="text_error">Text should be at least 5 characters</string>
+
+    <string name="user_name">User name</string>
+    <string name="text">Text</string>
+    <string name="btn_save">save</string>
+
+</resources>

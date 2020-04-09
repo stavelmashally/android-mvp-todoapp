@@ -1,5 +1,5 @@
 # Android MVP todoapp
-Sample app built using MVP architecture, Dagger, RxJava and Retrofit.    
+Android App built using MVP architecture, Dagger, RxJava and Retrofit.    
 API : https://github.com/stavelmashally/node-express-mongoose-todo-api
 <br><br>
 <p align="center">
